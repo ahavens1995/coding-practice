@@ -1,0 +1,9 @@
+git checkout main
+git checkout -b feature/add-html
+git status
+git add -A
+git commit -m "Title" -m "Description"
+git pull origin main
+git push origin feature/add-html
+git checkout main
+git pull origin main
